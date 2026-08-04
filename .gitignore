@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Trained model artifacts (large binary files - regenerate via train_model.py)
+model/*.h5
+model/*.keras
+
+# CIFAR-10 dataset cache (downloaded by Keras on first run)
+*.npz
+~/.keras/
+
+# Generated test sample images (regenerate via generate_test_samples.py)
+test_samples/*.png
+!test_samples/README.md
+!test_samples/generate_test_samples.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
